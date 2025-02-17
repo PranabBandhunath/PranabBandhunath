@@ -1,25 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blinking Text</title>
-    <style>
-        @keyframes blink {
-            0% { opacity: 1; }
-            50% { opacity: 0; }
-            100% { opacity: 1; }
-        }
-        .blink-text {
-            font-size: 24px;
-            font-weight: bold;
-            color: red;
-            animation: blink 1s infinite;
-        }
-    </style>
-</head>
-<body>
 
-    <p class="blink-text"><h1 align="center">
   Hi 👋, I'm Pranab Bandhu Nath</h1>!</p>
 
 </body>
